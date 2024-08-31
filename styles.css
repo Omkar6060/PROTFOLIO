@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700800;900&display=swap');
 *{
     margin: 0;
@@ -271,3 +273,74 @@ body{
         pointer-events: auto;
     }
 }
+/* Mobile styles */
+@media (max-width: 768px) {
+
+    /* Adjusting header padding */
+    .header {
+        padding: 10px 5%;
+    }
+
+    /* Adjusting logo font size */
+    .logo {
+        font-size: 20px;
+    }
+
+    /* Adjusting navbar font size and spacing */
+    .navbar a {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    /* Adjusting home section padding and content alignment */
+    .home {
+        padding: 0 5%;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    /* Adjusting h1 font size */
+    .home-content h1 {
+        font-size: 40px;
+    }
+
+    /* Adjusting h3 font size */
+    .home-content h3 {
+        font-size: 24px;
+    }
+
+    /* Adjusting paragraph font size */
+    .home-content p {
+        font-size: 14px;
+    }
+
+    /* Adjusting button box layout */
+    .home-content .btn-box {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+
+    .btn-box a {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* Adjusting social icons position and spacing */
+    .home-sci {
+        width: 100%;
+        justify-content: center;
+        bottom: 20px;
+    }
+
+    .home-sci a {
+        margin: 0 10px;
+    }
+
+    /* Adjusting image hover width */
+    .home-imgHover {
+        right: 0;
+        width: 100%;
+    }
+}
+
